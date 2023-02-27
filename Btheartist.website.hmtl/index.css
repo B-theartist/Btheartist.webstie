@@ -1,0 +1,57 @@
+h1{
+text-align: center;
+width: 100%;
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    filter: blur(5px);
+    transform: scale(1.25);
+    object-fit: none;
+    
+
+}
+body{
+    margin: 0px;
+    padding: ppx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    color: aliceblue;
+    font-family: fantasy;
+}
+#About{
+    text-align:center;
+    width: 50vw;
+    height: 50%;
+    display: block;
+}
+#links {
+    display: flex;
+}
+a{
+    color: aliceblue;
+    font-size: 1.25em;
+    text-decoration: none;
+    filter: brightness(0.75);
+    transition: 0.10s ease;
+}
+a:hover{
+    filter: brightness(1);
+}
+#Description{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.page-title{
+    margin-top: 100px;
+}
